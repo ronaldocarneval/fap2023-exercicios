@@ -12,15 +12,15 @@ function calculadora(numero1, numero2, operacao) {
         case 2:
             console.log(`${numero1} - ${numero2} = ${numero1 - numero2}`)
             break;
-            case 3:
+        case 3:
             console.log(`${numero1} x ${numero2} = ${numero1 * numero2}`)
             break;
-            case 4:
-                console.log(`${numero1} / ${numero2} = ${numero1 / numero2}`)
-                break;
+        case 4:
+            console.log(`${numero1} / ${numero2} = ${numero1 / numero2}`)
+            break;
 
     }
 
 }
 
-console.log(calculadora(numero1,numero2,operacao));
+console.log(calculadora(numero1, numero2, operacao));
