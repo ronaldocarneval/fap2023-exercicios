@@ -12,11 +12,12 @@ Quando a votação for finalizada, o código deverá mostrar o vencedor, aquele 
 a quantidade de votos de cada candidato, os brancos e nulos.*/
 
 validacao = true;
+let candidatox = 0; //889
+let candidatoy = 0; //847
+let candidatoz = 0; //515
+let branco = 0;
+
 while (validacao) {
-    let candidatox = 0; //889
-    let candidatoy = 0; //847
-    let candidatoz = 0; //515
-    let branco = 0;
 
     console.log("Bem-vindo a eleição digital!");
     console.log("candidato_X => 889, candidato_Y => 847, candidato_Z => 515");
