@@ -16,7 +16,7 @@ function calculadora(numero1, numero2, operacao) {
     } else if (operacao === 4 ) { 
         console.log(`${numero1} / ${numero2} = ${numero1 / numero2}`);
     } else if (operacao === 0 ) { 
-        console.log(`Você finalizou a calculadora!`);
+        console.log("Você finalizou a calculadora!");
         calcular = false;
     } else {
         console.log("Essa opção não existe");
