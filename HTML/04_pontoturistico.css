@@ -9,7 +9,7 @@ h1{
 p{
     color: white;
 }
-button {
+.botao {
     border-radius: 70px;
     color: white;
     background-color: #28033586;
@@ -17,6 +17,6 @@ button {
     padding: 10px 20px;
     margin-bottom: 20px;
 }
-a {color:#ff0000;}
-a:visited {color:#0000ff;}
-a:hover {background:#66ff66;}
+a#footer {color:#ff0000;}
+a#footer:visited {color:#0000ff;}
+a#footer:hover {background:#66ff66;}
