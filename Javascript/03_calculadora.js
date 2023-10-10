@@ -1,36 +1,30 @@
-let pvalor = document.getElementById("pvalor");
-let svalor = document.getElementById("svalor");
-let resul = document.getElementById("resultado")
+let numero1 = document.getElementById("pvalor");
+let numero2 = document.getElementById("svalor");
+let resultado = document.getElementById("Resultado")
+let a, b;
 
-let numero1 = pvalor.valiue;
-let numero2 = svalor.valiue;
-
-function soma(a, b) {
-    let total = a + b;
-    resul.textContent = a + " + "+ b + " = "+ total;
+function soma() {
+    a = Number(numero1.value);
+    b = Number(numero2.value);
+    resultado.innerHTML = a + " + " + b + " = " + (a + b);
 }
 
-function subtracao(a, b) {
-    let total = a - b;
-    resul.textContent = a + " - "+ b + " = "+ total;
+function subtrair() {
+    a = Number(numero1.value);
+    b = Number(numero2.value);
+    resultado.innerHTML = a + " - " + b + " = " + (a - b);
 }
 
-function multiplicacao(a, b) {
-    let total = a * b;
-    resul.textContent = a + " x "+ b + " = "+ total;
+function divisao() {
+    a = Number(numero1.value);
+    b = Number(numero2.value);
+    resultado.innerHTML = a + " / " + b + " = " + (a / b);
 }
 
-function divisao(a, b) {
-    let total = a / b;
-    resul.textContent = a + " / "+ b + " = "+ total;
+function multiplicacao() {
+    a = Number(numero1.value);
+    b = Number(numero2.value);
+    resultado.innerHTML = a + " * " + b + " = " + (a * b);
 }
 
-let btSoma = document.getElementById("soma");
-let btSubtracao = document.getElementById("subtracao");
-let btDivisao = document.getElementById("divisao");
-let btMultiplicacao = document.getElementById("multiplicacao");
 
-btSoma.addEventListener("click", soma(numero1, numero2) );
-btSubtracao.addEventListener("click", subtracao(numero1, numero2) );
-btDivisao.addEventListener("click", divisao(numero1, numero2) );
-btMultiplicacao.addEventListener("click", multiplicaca(numero1, numero2) );

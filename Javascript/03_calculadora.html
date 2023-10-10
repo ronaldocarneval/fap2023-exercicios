@@ -9,14 +9,14 @@
     <h1>Bem-vindo a sua Calculadora!</h1>
     <hr>
     <p>Digite os seus valores e depois clique na operação que você quer realizar</p>
-    <form>
+    
         <label>Primeiro Valor: </label><br>
         <input placeholder="Digite o primeiro valor" id="pvalor"><br><br>
         <label>Segundo Valor: </label><br>
         <input placeholder="Digite o segundo valor" id="svalor"><br><br>
-        <label>Operações que podem ser realizadas</label><br>
-        <button id="soma">+</button> <button id="subtracao">-</button> <button id="divisao">/</button> <button id="multiplicacao">*</button>
-    </form>
+        <label>Operações que podem ser realizadas</label><br><br>
+        <button id="soma" onclick="soma()">+</button> <button id="subtracao" onclick="subtrair()">-</button> <button id="divisao" onclick="divisao()">/</button> <button id="multiplicacao" onclick="multiplicacao()">*</button>
+  
 
     <h1 id="Resultado"></h1>
 
